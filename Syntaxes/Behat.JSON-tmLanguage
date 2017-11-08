@@ -4,18 +4,18 @@
     "name": "Behat",
     "scopeName": "feature.behat",
     "fileTypes": ["feature"],
-    "firstLineMatch": "^Feature:(.+)$",
-    "foldingStartMarker": "(Feature\\:|Background\\:|Scenario Outline\\:|Scenario\\:|Examples\\:)",
+    "firstLineMatch": "^(Feature|Fitur):(.+)$",
+    "foldingStartMarker": "(Feature\\:|Background\\:|Scenario Outline\\:|Scenario\\:|Examples\\:|Fitur\\:|Dasar\\:|Skenario konsep\\:|Skenario\\:|Contoh\\:)",
     "foldingStopMarker": "^(\\r\\n|\\n)$",
     "keyEquivalent": "^~B",
     "patterns": [
         {
-            "match": "\\s*(Scenario\\:|Feature\\:|Scenario Outline\\:|Background\\:|Examples\\:)",
+            "match": "\\s*(Scenario\\:|Feature\\:|Scenario Outline\\:|Background\\:|Examples\\:|Skenario\\:|Fitur\\:|Skenario konsep\\:|Dasar\\:|Contoh\\:)",
             "name": "keyword.behat",
             "comment": "Feature keywords"
         },
         {
-            "match": "^\\s+\\b(And|Given|Then|When|But)\\b",
+            "match": "^\\s+\\b(And|Given|Then|When|But|Dan|Dengan|Maka|Ketika|Tapi)\\b",
             "name": "entity.name.function.behat",
             "comment": "Step keywords"
         },

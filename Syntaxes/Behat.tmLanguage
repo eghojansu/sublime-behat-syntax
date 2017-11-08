@@ -9,9 +9,9 @@
 		<string>feature</string>
 	</array>
 	<key>firstLineMatch</key>
-	<string>^Feature:(.+)$</string>
+	<string>^(Feature|Fitur):(.+)$</string>
 	<key>foldingStartMarker</key>
-	<string>(Feature\:|Background\:|Scenario Outline\:|Scenario\:|Examples\:)</string>
+	<string>(Feature\:|Background\:|Scenario Outline\:|Scenario\:|Examples\:|Fitur\:|Dasar\:|Skenario konsep\:|Skenario\:|Contoh\:)</string>
 	<key>foldingStopMarker</key>
 	<string>^(\r\n|\n)$</string>
 	<key>keyEquivalent</key>
@@ -26,7 +26,7 @@
 			<key>comment</key>
 			<string>Feature keywords</string>
 			<key>match</key>
-			<string>\s*(Scenario\:|Feature\:|Scenario Outline\:|Background\:|Examples\:)</string>
+			<string>\s*(Scenario\:|Feature\:|Scenario Outline\:|Background\:|Examples\:|Skenario\:|Fitur\:|Skenario konsep\:|Dasar\:|Contoh\:)</string>
 			<key>name</key>
 			<string>keyword.behat</string>
 		</dict>
@@ -34,7 +34,7 @@
 			<key>comment</key>
 			<string>Step keywords</string>
 			<key>match</key>
-			<string>^\s+\b(And|Given|Then|When|But)\b</string>
+			<string>^\s+\b(And|Given|Then|When|But|Dan|Dengan|Maka|Ketika|Tapi)\b</string>
 			<key>name</key>
 			<string>entity.name.function.behat</string>
 		</dict>

@@ -15,3 +15,6 @@ The Behat syntax highlight can be found in the menu under View > Syntax > Behat.
 Here's an example of how the plugin highlights Behat code:
 
 ![Behat Feature Highlighting](screenshot.png)
+![Behat Feature Bahasa Indonesia Highlighting](screenshot_id.png)
+
+## This repository was forked to support Bahasa Indonesia in behat feature file
