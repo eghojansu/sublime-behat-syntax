@@ -16,5 +16,6 @@ Here's an example of how the plugin highlights Behat code:
 
 ![Behat Feature Highlighting](screenshot.png)
 ![Behat Feature Bahasa Indonesia Highlighting](screenshot_id.png)
+![Behat Feature Bahasa Indonesia With Scenario Outline Highlighting](screenshot_id_2.png)
 
 ## This repository was forked to support Bahasa Indonesia in behat feature file
